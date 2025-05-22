@@ -8,13 +8,13 @@ export default function HomePage() {
     <>
       <div className={styles.container}>
         <div className={styles.background}>
-          <h1>AI</h1>
-          <h1>Research</h1>
+          <h1>Software</h1>
+          <h1>Engineer</h1>
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Kostas Georgiou</h1>
-            <h6 className={styles.bio}>Machine Learning Engineer</h6>
+            <h1 className={styles.name}>Mohammed Raihan</h1>
+            <h6 className={styles.bio}>Software Engineer</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <div className={styles.content}>
@@ -72,10 +72,10 @@ export default function HomePage() {
             <div className={styles.picture_boader}>
               <Image
                 className={styles.picture}
-                src="/me.jpeg"
+                src="/me_image.jpg"
                 width={300}
                 height={300}
-                alt="Kostas' Picture"
+                alt="Mohammed Raihan"
               />
             </div>
 

@@ -7,22 +7,26 @@ import { Analytics } from '@vercel/analytics/react';
 
 function MyApp({ Component, pageProps }) {
 
-  useEffect(() => {
-    if (localStorage.getItem("theme")) {
-      document.documentElement.setAttribute(
-        "data-theme",
-        localStorage.getItem("theme")
-      );
-    }
-  }, []);
+    useEffect(() => {
+        if (localStorage.getItem("theme")) {
+            document.documentElement.setAttribute(
+                "data-theme",
+                localStorage.getItem("theme")
+            );
+        }
+    }, []);
 
-  return (
-    <Layout>
-      <Head title={`Kostas Georgiou | ${pageProps.title}`} />
-      <Component {...pageProps} />
-      <Analytics />
-    </Layout>
-  );
+    return ( <
+        Layout >
+        <
+        Head title = { `Mohammed Raihan | ${pageProps.title}` }
+        /> <
+        Component {...pageProps }
+        /> <
+        Analytics / >
+        <
+        /Layout>
+    );
 }
 
 export default MyApp;
